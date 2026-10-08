@@ -1,0 +1,13 @@
+{
+  "name": "worktree-setup",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "bun build --compile --minify-whitespace --minify-syntax --bytecode index.ts --outfile ./dist/worktree-setup"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "7.0.2"
+  }
+}
